@@ -23,7 +23,7 @@ setvolume("off")
 while True:
   if not playing:
     stream()
-    is_playing = True
+    playing = True
 
   if(iteration > 128):
     iteration = 1
